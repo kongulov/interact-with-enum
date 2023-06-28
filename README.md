@@ -1,4 +1,4 @@
-# Trait for convenient use of ENUM in PHP
+# Interact With Enum in PHP
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/kongulov/interact-with-enum?style=flat-square)](https://packagist.org/packages/kongulov/interact-with-enum)
 ![Licence](https://img.shields.io/github/license/kongulov/interact-with-enum?style=flat-square)
