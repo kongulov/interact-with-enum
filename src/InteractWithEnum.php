@@ -1,6 +1,6 @@
 <?php
 
-namespace Kongulov\Trait;
+namespace Kongulov\Traits;
 
 /**
  * Trait for comfortable working with ENUMs
