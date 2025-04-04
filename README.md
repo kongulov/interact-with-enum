@@ -92,3 +92,33 @@ App\Enums\StatusEnum {
   value: "active"
 }
 </pre>
+
+* **count()**
+```php
+StatusEnum::count()
+```
+Return:
+<pre>
+3
+</pre>
+
+* **exists($value)**
+```php
+StatusEnum::exists('active')
+```
+Return:
+<pre>
+true
+</pre>
+
+* **getByIndex($index)**
+```php
+StatusEnum::getByIndex(1)
+```
+Return:
+<pre>
+App\Enums\StatusEnum {
+  name: "Active"
+  value: "active"
+}
+</pre>
