@@ -54,6 +54,8 @@ array:3 [
 ]
 </pre>
 
+<hr>
+
 * **values()**
 ```php
 StatusEnum::values()
@@ -66,6 +68,8 @@ array:3 [
   2 => "inactive"
 ]
 </pre>
+
+<hr>
 
 * **array()**
 ```php
@@ -80,6 +84,8 @@ array:3 [
 ]
 </pre>
 
+<hr>
+
 * **find($needle)**
 ```php
 StatusEnum::find('Active') // Find by name
@@ -93,6 +99,8 @@ App\Enums\StatusEnum {
 }
 </pre>
 
+<hr>
+
 * **count()**
 ```php
 StatusEnum::count()
@@ -102,6 +110,8 @@ Return:
 3
 </pre>
 
+<hr>
+
 * **exists($value)**
 ```php
 StatusEnum::exists('active')
@@ -110,6 +120,8 @@ Return:
 <pre>
 true
 </pre>
+
+<hr>
 
 * **getByIndex($index)**
 ```php
