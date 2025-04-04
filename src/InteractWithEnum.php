@@ -51,4 +51,39 @@ trait InteractWithEnum {
     {
         return array_combine(self::values(), self::names());
     }
+
+    /**
+     * Get the count of ENUM cases
+     *
+     * @return int
+     */
+    public static function count(): int
+    {
+        return count(self::cases());
+    }
+
+    /**
+     * Check if a name or value exists in the ENUM
+     *
+     * @param mixed $needle
+     *
+     * @return bool
+     */
+    public static function exists(mixed $needle): bool
+    {
+        return self::find($needle) !== null;
+    }
+
+    /**
+     * Get the ENUM case by index
+     *
+     * @param int $index
+     *
+     * @return InteractWithEnum|null
+     */
+    public static function getByIndex(int $index): self|null
+    {
+        $cases = self::cases();
+        return $cases[$index] ?? null;
+    }
 }
